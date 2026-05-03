@@ -17,17 +17,6 @@ This guide uses references as engineering evidence, not as one-to-one prescripti
 | CAMEL | https://docs.camel-ai.org/ | https://docs.camel-ai.org/reference |
 | AutoGPT | https://agpt.co/docs/platform | https://agpt.co/docs/platform/api-and-integrations/api-guide |
 
-## Officialness Notes
-
-- LangChain and LangGraph: both docs and reference pages are hosted by LangChain. Their reference site explicitly covers LangChain, LangGraph, Deep Agents, LangSmith, and integrations.
-- CrewAI: the docs are official. The API link is the official CrewAI AMP REST API reference for deployed crews; I did not find a separate official Python SDK class-level API reference in the current docs.
-- LlamaIndex: the previous `docs.llamaindex.ai` URLs now redirect to `developers.llamaindex.ai`, which appears to be the current official developer documentation and framework API reference.
-- AutoGen: the docs and API reference are hosted under Microsoft GitHub Pages for the Microsoft AutoGen project.
-- Haystack: the docs and API reference are official deepset Haystack documentation. I ignored unrelated Haystack API results from other products/domains.
-- Semantic Kernel: Microsoft Learn is the official documentation and API reference source. The Python API page currently shows an authorization notice in the page chrome but still exposes the package index; the .NET API reference is also official at `https://learn.microsoft.com/en-us/dotnet/api/microsoft.semantickernel?view=semantic-kernel-dotnet`.
-- MetaGPT: `docs.deepwisdom.ai` is linked from the official MetaGPT repository and is the official documentation site. The API page is a documentation/API guide page, not a generated full Python class reference.
-- CAMEL: `docs.camel-ai.org` is the official documentation site and includes a generated API reference.
-- AutoGPT: `agpt.co/docs` is the official current AutoGPT documentation. The API link is for the AutoGPT Platform External API. AutoGPT Classic has documentation under `https://agpt.co/docs/classic`, but it does not appear to provide a maintained class-level Python API reference.
 
 ## Public Agent Engineering Guidance
 
